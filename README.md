@@ -3,8 +3,8 @@ Simplest simulation model of using broadcast for a group of nodes to vote on an 
 
 ## Usage instructions
 - Pull the code, you should have two files:
-  * mobilephone.py  : defines the class for the nodes
-  * simdriver.py    : defines the main program to run which constructs the nodes, generates the question, generates responses, etc.
+  * __mobilephone.py__  : defines the class for the nodes
+  * __simdriver.py__    : defines the main program to run which constructs the nodes, generates the question, generates responses, etc.
   
 - Run:
 `python simdriver.py 10 2` , where `10` is the number of nodes we want to create, and `2` is the number of options the questions have.
